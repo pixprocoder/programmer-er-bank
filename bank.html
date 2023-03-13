@@ -14,7 +14,7 @@
         <span class="text-pink-500 font-bold">Money!!!</span>
       </h1>
     </header>
-    <main>
+    <main class="mt-6">
       <section>
         <div class="card-container bg-gray-100 w-1/2 mx-auto p-6">
           <div class="grid grid-cols-3 gap-4 text-white">
@@ -29,6 +29,43 @@
             <div class="bg-cyan-500 p-6 rounded-xl">
               <p class="text-xl">Balance</p>
               <p class="text-4xl">$2233</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- deposit and withdraw  -->
+      <section>
+        <div class="card-container bg-gray-100 w-1/2 mx-auto p-10">
+          <div class="grid grid-cols-2 gap-4 mt-6">
+            <div class="bg-blue-800 p-6 rounded-lg">
+              <p class="text-2xl mb-2 text-white">Please Deposit</p>
+              <input
+                class="rounded p-2 border-0 outline-none my-1"
+                type="number"
+                placeholder="$ Deposit Amount"
+              />
+              <button
+                class="bg-green-700 hover:bg-green-500 mt-2 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                type="button"
+                id="signin-btn"
+              >
+                Deposit
+              </button>
+            </div>
+            <div class="bg-blue-800 p-6 rounded-lg">
+              <p class="text-2xl mb-2 text-white">Please Withdraw</p>
+              <input
+                class="rounded p-2 border-0 outline-none my-1"
+                type="number"
+                placeholder="$ Withdraw Amount"
+              />
+              <button
+                class="bg-green-700 hover:bg-green-500 mt-2 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                type="button"
+                id="signin-btn"
+              >
+                Withdraw
+              </button>
             </div>
           </div>
         </div>
