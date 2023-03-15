@@ -1,3 +1,10 @@
+document.getElementById("deposit-btn").addEventListener("click", function () {
+  const nweDepositAmount = getInputField("deposit-field");
+  const previousDepositAmount = getTextValue("deposit-total");
+  const newDepositTotalAmount = previousDepositAmount + nweDepositAmount;
+  setAmountValue("deposit-total", newDepositTotalAmount);
+});
+
 /* 
 This code was created my be at the first time without function now I have learned the better way which I will implement above
  */
