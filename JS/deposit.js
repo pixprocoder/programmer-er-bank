@@ -1,8 +1,15 @@
-// step 1: get the button
+/* 
+This code was created my be at the first time without function now I have learned the better way which I will implement above
+ */
+
+/* // step 1: get the button
 document.getElementById("deposit-btn").addEventListener("click", function () {
   // step 2: get deposit input value
   const depositField = document.getElementById("deposit-field");
   const newDepositAmount = parseFloat(depositField.value);
+
+  // clear input field
+  depositField.value = "";
 
   // step 3: get current deposit value
   const depositAmountElement = document.getElementById("deposit-total");
@@ -24,7 +31,4 @@ document.getElementById("deposit-btn").addEventListener("click", function () {
 
   // step 3. set the balance
   balanceAmountElement.innerText = newBalanceTotal;
-
-  // clear input field
-  depositField.value = "";
-});
+}); */
